@@ -18,10 +18,10 @@ In this task, I am going to use :<br>
 - Follow the instruction for installation, and turn on the Docker dashboard<br>
 - Clone this git repository ```https://github.com/Johanklemantan/Local-ETL-Using-Airflow.git``` <br>
 - Download the raw data from <a href='https://drive.google.com/drive/folders/1hBPZApnbmfrUWBIXLw6Nw8Tk8FtlSrrK?usp=sharing'>here</a><br>
-- Save all the data into folder data that I've created
+- Save all the data and place into your ```file_location```
 
 ### How to Use <br>
-- Open the ```docker-compose.yml``` file and change the ```volumes``` as per your file name and file location<br>
+- Open the ```docker-compose.yml``` file and change the ```volumes``` as per your ```file_name``` and ```file_location```<br>
 - Go to the terminal and type ```docker-compose up```<br>
 - The Airflow Environment will be runned and local webserver 8080 will be generated <br>
 - Because this docker environment is taken from other person which is excluded XLRD, the library need to be added manually by :<br>
